@@ -1,6 +1,12 @@
 #include<iostream>
 using namespace std;
 
+// ABCDE
+// ABCD
+// ABC
+// AB
+// A
+
 int main(){
     int N;
     cout<<"Enter a Number: ";
