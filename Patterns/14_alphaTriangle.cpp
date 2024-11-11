@@ -2,10 +2,10 @@
 using namespace std;
 
 // A
-// AB
-// ABC
-// ABCD
-// ABCDE
+// A B
+// A B C
+// A B C D
+// A B C D E
 
 int main(){
     int N;
@@ -14,7 +14,7 @@ int main(){
     for(int i = 1; i<=N; i++){
         char alpha = 'A';
         for(int k = 1; k<=i; k++){
-            cout<<alpha;
+            cout<<alpha<<" ";
             alpha+=1;
         }
         cout<<endl;
