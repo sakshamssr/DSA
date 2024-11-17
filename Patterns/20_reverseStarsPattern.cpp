@@ -13,7 +13,7 @@ using namespace std;
 
 int main(){
     int N;
-    cout<<"Enter a Name: ";
+    cout<<"Enter a Number: ";
     cin>>N;
     int spacecount = (N-1)*2;
     int starcount = N-1;
