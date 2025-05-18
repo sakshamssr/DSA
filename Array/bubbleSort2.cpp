@@ -11,7 +11,7 @@ int main(){
     for(int i = 1; i<=n-1; i++){
         cout<<"I: "<<i<<" ";
         int didswap = 0;
-        for(int j = 0; j<=n-i; j++){
+        for(int j = 0; j<=n-i-1; j++){
             cout<<"J: "<<j<<" ";
             if(arr[j]>arr[j+1]){
                 swap(arr[j],arr[j+1]);
